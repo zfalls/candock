@@ -1,7 +1,7 @@
 set(gsl_source  "${CMAKE_CURRENT_BINARY_DIR}/gsl-src")
 set(gsl_install "${CMAKE_BINARY_DIR}/stage")
 set(gsl_version "2.5.0")
-set(gsl_url "https://github.com/ampl/gsl/archive/v${gsl_version}.tar.gz")
+set(gsl_url "https://github.com/ampl/gsl/tags/v${gsl_version}.tar.gz")
 set(gsl_md5 "78419573df6db3186c651ac9ca3d5d38")
 
 ExternalProject_Add(gsl
